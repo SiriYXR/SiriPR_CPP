@@ -1,0 +1,198 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="源文件">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="头文件">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="资源文件">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="头文件\siripr">
+      <UniqueIdentifier>{3879d0f5-9db0-417f-a885-1fa27c4ec232}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="头文件\thirdparty">
+      <UniqueIdentifier>{9ab7c181-4ecd-46b1-a69c-433fcad9bc5e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="头文件\siripr\core">
+      <UniqueIdentifier>{4bf5d27b-4025-44f6-966b-ac67590e40d6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="头文件\siripr\train">
+      <UniqueIdentifier>{65988eda-8ecd-41be-833e-3752fe642b2c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="头文件\siripr\util">
+      <UniqueIdentifier>{8ba27416-488f-438f-98c3-7ea7bf321061}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\core">
+      <UniqueIdentifier>{9ceddc32-25c9-47ed-90cd-2e674f7155f0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\thirdparty">
+      <UniqueIdentifier>{4765f442-7956-4ad6-871e-68db7c37f699}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\train">
+      <UniqueIdentifier>{77420dd6-6d83-4630-9a93-dd3bff122e06}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\util">
+      <UniqueIdentifier>{a6b636b1-1d46-48de-9479-dbb82feeac8f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="头文件\siripr\api">
+      <UniqueIdentifier>{bfee335c-fc4c-4c5a-a248-8e09ea82c4f1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\api">
+      <UniqueIdentifier>{7fe4f46f-7bf6-49ef-ba0f-ea477269aece}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\library\thirdparty\LBP\helper.hpp">
+      <Filter>头文件\thirdparty</Filter>
+    </ClInclude>
+    <ClInclude Include="..\library\thirdparty\LBP\lbp.hpp">
+      <Filter>头文件\thirdparty</Filter>
+    </ClInclude>
+    <ClInclude Include="..\library\thirdparty\mser\mser2.hpp">
+      <Filter>头文件\thirdparty</Filter>
+    </ClInclude>
+    <ClInclude Include="..\library\thirdparty\textDetect\erfilter.hpp">
+      <Filter>头文件\thirdparty</Filter>
+    </ClInclude>
+    <ClInclude Include="include\siripr\core\character.hpp">
+      <Filter>头文件\siripr\core</Filter>
+    </ClInclude>
+    <ClInclude Include="include\siripr\core\chars_identify.h">
+      <Filter>头文件\siripr\core</Filter>
+    </ClInclude>
+    <ClInclude Include="include\siripr\core\chars_recognise.h">
+      <Filter>头文件\siripr\core</Filter>
+    </ClInclude>
+    <ClInclude Include="include\siripr\core\chars_segment.h">
+      <Filter>头文件\siripr\core</Filter>
+    </ClInclude>
+    <ClInclude Include="include\siripr\core\core_func.h">
+      <Filter>头文件\siripr\core</Filter>
+    </ClInclude>
+    <ClInclude Include="include\siripr\core\feature.h">
+      <Filter>头文件\siripr\core</Filter>
+    </ClInclude>
+    <ClInclude Include="include\siripr\core\params.h">
+      <Filter>头文件\siripr\core</Filter>
+    </ClInclude>
+    <ClInclude Include="include\siripr\core\plate.hpp">
+      <Filter>头文件\siripr\core</Filter>
+    </ClInclude>
+    <ClInclude Include="include\siripr\core\plate_detect.h">
+      <Filter>头文件\siripr\core</Filter>
+    </ClInclude>
+    <ClInclude Include="include\siripr\core\plate_judge.h">
+      <Filter>头文件\siripr\core</Filter>
+    </ClInclude>
+    <ClInclude Include="include\siripr\core\plate_locate.h">
+      <Filter>头文件\siripr\core</Filter>
+    </ClInclude>
+    <ClInclude Include="include\siripr\core\plate_recognize.h">
+      <Filter>头文件\siripr\core</Filter>
+    </ClInclude>
+    <ClInclude Include="include\siripr\train\ann_train.h">
+      <Filter>头文件\siripr\train</Filter>
+    </ClInclude>
+    <ClInclude Include="include\siripr\train\annCh_train.h">
+      <Filter>头文件\siripr\train</Filter>
+    </ClInclude>
+    <ClInclude Include="include\siripr\train\create_data.h">
+      <Filter>头文件\siripr\train</Filter>
+    </ClInclude>
+    <ClInclude Include="include\siripr\train\svm_train.h">
+      <Filter>头文件\siripr\train</Filter>
+    </ClInclude>
+    <ClInclude Include="include\siripr\train\train.h">
+      <Filter>头文件\siripr\train</Filter>
+    </ClInclude>
+    <ClInclude Include="include\siripr\util\kv.h">
+      <Filter>头文件\siripr\util</Filter>
+    </ClInclude>
+    <ClInclude Include="include\siripr\util\util.h">
+      <Filter>头文件\siripr\util</Filter>
+    </ClInclude>
+    <ClInclude Include="include\siripr\config.h">
+      <Filter>头文件\siripr</Filter>
+    </ClInclude>
+    <ClInclude Include="include\siripr.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="include\siripr\api\api.h">
+      <Filter>头文件\siripr\api</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\library\thirdparty\textDetect\erfilter.cpp">
+      <Filter>源文件\thirdparty</Filter>
+    </ClCompile>
+    <ClCompile Include="..\library\thirdparty\LBP\helper.cpp">
+      <Filter>源文件\thirdparty</Filter>
+    </ClCompile>
+    <ClCompile Include="..\library\thirdparty\LBP\lbp.cpp">
+      <Filter>源文件\thirdparty</Filter>
+    </ClCompile>
+    <ClCompile Include="..\library\thirdparty\mser\mser2.cpp">
+      <Filter>源文件\thirdparty</Filter>
+    </ClCompile>
+    <ClCompile Include="src\core\chars_identify.cpp">
+      <Filter>源文件\core</Filter>
+    </ClCompile>
+    <ClCompile Include="src\core\chars_recognise.cpp">
+      <Filter>源文件\core</Filter>
+    </ClCompile>
+    <ClCompile Include="src\core\chars_segment.cpp">
+      <Filter>源文件\core</Filter>
+    </ClCompile>
+    <ClCompile Include="src\core\core_func.cpp">
+      <Filter>源文件\core</Filter>
+    </ClCompile>
+    <ClCompile Include="src\core\feature.cpp">
+      <Filter>源文件\core</Filter>
+    </ClCompile>
+    <ClCompile Include="src\core\params.cpp">
+      <Filter>源文件\core</Filter>
+    </ClCompile>
+    <ClCompile Include="src\core\plate_detect.cpp">
+      <Filter>源文件\core</Filter>
+    </ClCompile>
+    <ClCompile Include="src\core\plate_judge.cpp">
+      <Filter>源文件\core</Filter>
+    </ClCompile>
+    <ClCompile Include="src\core\plate_locate.cpp">
+      <Filter>源文件\core</Filter>
+    </ClCompile>
+    <ClCompile Include="src\core\plate_recognize.cpp">
+      <Filter>源文件\core</Filter>
+    </ClCompile>
+    <ClCompile Include="src\train\ann_train.cpp">
+      <Filter>源文件\train</Filter>
+    </ClCompile>
+    <ClCompile Include="src\train\annCh_train.cpp">
+      <Filter>源文件\train</Filter>
+    </ClCompile>
+    <ClCompile Include="src\train\create_data.cpp">
+      <Filter>源文件\train</Filter>
+    </ClCompile>
+    <ClCompile Include="src\train\svm_train.cpp">
+      <Filter>源文件\train</Filter>
+    </ClCompile>
+    <ClCompile Include="src\train\train.cpp">
+      <Filter>源文件\train</Filter>
+    </ClCompile>
+    <ClCompile Include="src\util\kv.cpp">
+      <Filter>源文件\util</Filter>
+    </ClCompile>
+    <ClCompile Include="src\util\util.cpp">
+      <Filter>源文件\util</Filter>
+    </ClCompile>
+    <ClCompile Include="src\api\api.cpp">
+      <Filter>源文件\api</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>

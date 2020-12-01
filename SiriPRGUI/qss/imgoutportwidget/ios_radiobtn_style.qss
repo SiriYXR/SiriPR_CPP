@@ -1,0 +1,19 @@
+        /*RadioButton样式设置*/
+        QRadioButton::indicator { 
+            width: 17px;
+            height: 17px;
+        }
+        /*单选框未选中样式*/
+        QRadioButton::indicator::unchecked {
+             
+            image: url(./SiriPRGUI/img/unchecked_radiobutton.png);
+        }
+        /*单选框选中样式*/
+        QRadioButton::indicator::checked { 
+            image: url(./SiriPRGUI/img/checked_radiobutton.png);
+        }
+        /*RadioButton和checkbox字体和间距设置*/
+        QRadioButton{
+            spacing: 5px;
+            font-size: 13px;
+        }

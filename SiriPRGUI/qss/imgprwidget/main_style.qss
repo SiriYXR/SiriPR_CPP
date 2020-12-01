@@ -1,0 +1,89 @@
+        *{
+            font-family:Microsoft Yahei;
+            font-size:12px;
+            color:dimgray;
+        }
+        
+        QPushButton
+        {
+            font-family:Microsoft Yahei;
+            font-size:14px;
+            color:dimgray;
+            background-color:#fff;
+            border:1px solid #B5ADAD;
+            border-radius:2px;
+        }
+        QPushButton:hover
+        {
+            color:#fff;
+            background-color:dimgray;
+        }
+        QPushButton:pressed
+        {
+            color:#fff;
+            background-color:dimgray;
+            padding-left:3px;
+            padding-top:3px;
+        }
+        
+        QComboBox{
+            font-family:Microsoft YaHei;
+            border:1px solid #B5ADAD;
+            border-radius:2px;
+            background: #fff;
+            font:12px;
+            color:dimgray;
+        }
+        QComboBox QAbstractItemView{
+            border: 0px;
+            outline:0px;
+            selection-background-color: #2C2A28;
+            height:100px;
+            background: #fff;
+            font-size:12px
+        }
+        QComboBox QAbstractItemView::item {
+            height:30px;
+        }
+        QComboBox QAbstractItemView::item:selected{
+            background-color: #f1f1f1;
+        }
+        QComboBox::down-arrow{
+            background: #fff;
+            color:dimgray;
+        }
+        QComboBox::drop-down{
+            border:0px;
+        }
+        
+        
+        QSpinBox{
+            border:1px solid #B5ADAD;
+            height: 21px;
+        }
+        /*spinbox 抬起样式*/
+        QTimeEdit::up-button,QDoubleSpinBox::up-button,QSpinBox::up-button {subcontrol-origin:border;
+            subcontrol-position:right;
+            image: url(./SiriPRGUI/img/spinbox_up_right.png);
+            width: 12px;
+            height: 20px;       
+        }
+        QTimeEdit::down-button,QDoubleSpinBox::down-button,QSpinBox::down-button {subcontrol-origin:border;
+            subcontrol-position:left;
+            border-image: url(./SiriPRGUI/img/spinbox_up_left.png);
+            width: 12px;
+            height: 20px;
+        }
+        /*按钮按下样式*/
+        QTimeEdit::up-button:pressed,QDoubleSpinBox::up-button:pressed,QSpinBox::up-button:pressed{subcontrol-origin:border;
+            subcontrol-position:right;
+            image: url(./SiriPRGUI/img/spinbox_down_right.png);
+            width: 12px;
+            height: 20px;       
+        }
+        QTimeEdit::down-button:pressed,QDoubleSpinBox::down-button:pressed,QSpinBox::down-button:pressed,QSpinBox::down-button:pressed{
+            subcontrol-position:left;
+            image: url(./SiriPRGUI/img/spinbox_down_left.png);
+            width: 12px;
+            height: 20px;
+        }

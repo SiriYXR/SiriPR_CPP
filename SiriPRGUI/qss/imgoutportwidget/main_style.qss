@@ -1,0 +1,9 @@
+QDialog{
+            background:#FBFAFA;
+        }
+        
+        QLabel{
+            font-family:Microsoft Yahei;
+            font-size:15px;
+            color:dimgray;
+        }

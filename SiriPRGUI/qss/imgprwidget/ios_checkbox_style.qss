@@ -1,0 +1,18 @@
+        /*checkbox字体和间距设置*/
+        QCheckBox{
+            spacing: 5px;
+            font-size: 12px;
+        }
+        /*checkbox样式设置*/
+        QCheckBox::indicator { 
+            width: 26px;
+            height: 30px;
+        }
+        /*未选中*/
+        QCheckBox::indicator::unchecked {   
+            image: url(./SiriPRGUI/img/iosCheckBoxOff.png);
+        }
+        /*选中*/
+        QCheckBox::indicator::checked { 
+            image: url(./SiriPRGUI/img/iosCheckBoxOn.png);
+        }

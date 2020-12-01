@@ -1,0 +1,7 @@
+
+LIBRARY apisiripr
+ 
+EXPORTS
+apiInitPR
+apiImgRecognize
+apiImgRecognize_C
